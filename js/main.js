@@ -6,6 +6,7 @@ alert(numero + numero2);
 console.log(nome);
 console.log(numero + numero2);
 */
+
 /*var lista = ["macarrao", "peixe", "linguado"];
 //lista.pop()
 console.log(lista);
@@ -18,8 +19,82 @@ console.log(lista.join(" ~~ "));
 //////////-''lenght'' é pra monstrar quantos na lista
 ///alert(lista[1])
 */
+
 /*
 var misturas = [{nome:"camarao", cor:"rosa"},{nome:"humano", cor:"arco-iris"}]
 console.log(misturas);
 alert(misturas[1].cor);
+*/
+
+/*
+var idade = prompt("quantos anos");
+if (idade >= 18){
+    alert("tu ta liberado");
+}else{
+    alert("nope, volte mais tarde bebe");
+};
+*/
+
+/*
+var count =0;
+while (count <=5){
+    console.log(count);
+    count++;
+};
+*/
+
+/*
+var count;
+for(count=1; count <=5; count++){
+    alert(count);
+}
+*/
+
+/*
+var d = new Date();
+alert(d.getHours());
+/////////se tu apenas colocar alert(d); vai monstrar tudo sobre horario
+*/
+
+/*
+function soma(n1, n2){
+    return n1 + n2;
+} 
+function setreplace(frase, nome, new_nome){
+    return frase.replace(nome, new_nome)
+}
+alert(soma(10, 80));
+alert(setreplace("podemos comer", "EXPLOSAO"));
+//////esse ultimo eu ainda nao sei por que que nao aparece "podemos comer EXPLOSAO"...
+*/
+
+/*function validade(idade){
+    var validar;
+    if (idade >=18){
+        validar = true
+    }else{
+        validar = false
+    }
+    return validar;
+}
+var idade = prompt("pegue a sua idade");
+console.log(validade(idade));
+*/
+
+////agora monstrando isso de outra maneira
+/*
+var validar = 0
+
+////se quiser colocar o "= 0" é claro
+
+funcion validade(idade){
+    if (idade >=18){
+        validar = true
+    }else{
+        validar = false
+    }
+    return validar
+}
+
+////isso faz o ''var validar'' ficar GLOBALMENTE 
 */
