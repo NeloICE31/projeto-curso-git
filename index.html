@@ -3,14 +3,20 @@
 
 <head>
     <title>Minha coisa</title>
-            <meta charset="olf-8">
-            <script type="text/javascript" src="js/main.js">
-            
-            </script>
+    <meta charset="olf-8">
+    <script type="text/javascript" src="js/main.js">
+
+    </script>
 </head>
 
-<body>
-    <h1>COMA PEIXES </h1>
-</body>
-
-</html>
+<body onload="load()">
+    <h1>COMA PEIXE </h1>
+    <button type="button" onclick="clicou()">se comeu peixe clique aqui</button>
+    <p id="agradecimento" onclick="redirencionar()"></p>
+    <p id="mousemove" onmouseover="trocar(this)" onmouseout="voltar(this)">passe o mouse aqui</p>
+    <p id="mousemove2" onmouseover="trocar(this)" onmouseout="voltar(this)">passe o mouse aqui</p>
+    <select onchange="funcaochange(this)">
+        <option value="1"> valor 1</option>
+             <option value="2"> valor 2</option>
+                 <option value="3"> valor 3</option>
+            </select> </body> </html>

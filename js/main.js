@@ -98,3 +98,35 @@ funcion validade(idade){
 
 ////isso faz o ''var validar'' ficar GLOBALMENTE 
 */
+
+//////e assim q tiver um BOTAO...
+function clicou(){
+ //   alert("que coma mais peixes");
+document.getElementById("agradecimento").innerHTML = "<b>que possa comer mais peixes</b>";
+}
+
+function redirencionar(){
+//    window.open("file:///C:/Users/Daniel%20Filho/projeto-curso-git/index.html");
+    window.location.href = "https://hsreplay.net/";
+}
+////agora eu posso redirencionar os sites tuudo
+
+function trocar(elemento){
+    /////se quiser botar as coisas com o mesmo ''elemento''
+    //    document.getElementById("mousemove").innerHTML = "mi";
+   elemento.innerHTML = "mi";
+    //   alert("trocar texto");
+}
+
+function voltar(elemento){
+    //    document.getElementById("mousemove").innerHTML = "passe o mouse aqui";
+   elemento.innerHTML = "passe o mouse aqui";
+}
+
+function load(){
+ alert("carregando...");
+}
+
+function funcaochange(elemento){
+    console.log(elemento.value);
+}
